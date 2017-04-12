@@ -13,10 +13,10 @@
         <label>Search</label>
         <md-input type="tel"></md-input>
       </md-input-container>
-      <div class="esp">
+      <div class="pos">
         <img src="../assets/France.png" alt="flag_france">
         <img src="../assets/en.png" alt="flag_londres">
-      </div>
+      </div  >
       <md-button class="md-raised">Sign In</md-button>
       <md-button class="md-raised md-warn">LogIn</md-button>
     </md-toolbar>
@@ -32,14 +32,12 @@
 <style>
 .search {
   margin-right: 100px;
-  max-width: 300px;
+  max-width: 350px;
 }
   .col{
     color: #2E3951;
-
   }
-  .esp{
-    padding-right: 20px;
-  }
-
+.pos{
+  padding-right: 15px;
+}
 </style>
