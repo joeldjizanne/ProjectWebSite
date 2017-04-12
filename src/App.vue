@@ -12,12 +12,14 @@
 
   import NavBar from './components/NavBar.vue'
   import AppFooter from './components/AppFooter.vue'
+  import AppCarousel from './components/AppCarousel.vue'
 
 export default {
   name: 'App',
   components: {
       NavBar,
-      AppFooter
+      AppFooter,
+    AppCarousel
   }
 }
 </script>

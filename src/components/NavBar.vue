@@ -1,37 +1,26 @@
 <template>
-  <md-toolbar>
-    <md-button class="md-icon-button">
-      <md-icon>menu</md-icon>
-    </md-button>
+  <div class="col">
+    <md-toolbar>
+      <md-button class="md-icon-button">
+        <md-icon><img src="../assets/logo2_80x60.png" alt=""></md-icon>
+      </md-button>
 
-    <h2 class="md-title" style="flex: 1">Vue Material</h2>
-
-    <!--Dropdown primary-->
-    <div class="dropdown">
-
-      <!--Trigger-->
-      <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown primary</button>
+      <h2 class="md-title" style="flex: 1">Secure Your future</h2>
 
 
-      <!--Menu-->
-      <div class="dropdown-menu dropdown-primary">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-        <a class="dropdown-item" href="#">Something else here</a>
+      <md-input-container class ="search">
+        <md-icon>search</md-icon>
+        <label>Search</label>
+        <md-input type="tel"></md-input>
+      </md-input-container>
+      <div class="esp">
+        <img src="../assets/France.png" alt="flag_france">
+        <img src="../assets/en.png" alt="flag_londres">
       </div>
-    </div>
-    <!--/Dropdown primary-->
-
-    <md-input-container class ="search">
-      <md-icon>search</md-icon>
-      <label>Phone</label>
-      <md-input type="tel"></md-input>
-    </md-input-container>
-
-    <md-button class="md-raised">Sign In</md-button>
-    <md-button class="md-raised md-warn">LogIn</md-button>
-  </md-toolbar>
+      <md-button class="md-raised">Sign In</md-button>
+      <md-button class="md-raised md-warn">LogIn</md-button>
+    </md-toolbar>
+  </div>
 </template>
 
 <script>
@@ -45,4 +34,12 @@
   margin-right: 100px;
   max-width: 300px;
 }
+  .col{
+    color: #2E3951;
+
+  }
+  .esp{
+    padding-right: 20px;
+  }
+
 </style>

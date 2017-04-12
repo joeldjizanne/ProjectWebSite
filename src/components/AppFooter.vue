@@ -39,7 +39,7 @@
             </div>
           <div class="icon">
             <i class="fa fa-mobile" aria-hidden="true"></i>
-            +(237)674 554 133
+            +(32)465265071
             </div>
          <div class="icon">
            <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
@@ -62,7 +62,7 @@
            </div>
         </div>
       </div>
-
+     <div class="esp">Powered by DesignKiller</div>
   </footer>
 </template>
 
@@ -73,7 +73,12 @@
 </script>
 
 <style>
-  *{
+
+.esp{
+  text-align: center;
+  padding-top: 50px;
+}
+*{
     margin: 0px;
     padding: 0px;
     color: #fff;
@@ -91,7 +96,7 @@
     max-width: 20%;
     text-align: left;
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .para:not(:first-child) {
