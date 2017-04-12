@@ -1,6 +1,6 @@
 <template>
   <div id="example">
-    <carousel-3d autoplay :controls-visible="true" :clickable="false" space="400" display="10">
+    <carousel-3d autoplay :controls-visible="true" :clickable="false" space="400" :display="10">
       <slide :index="0">
         <span class="title">You know</span>
         <figure>

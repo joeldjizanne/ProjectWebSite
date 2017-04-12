@@ -6,6 +6,23 @@
 
     <h2 class="md-title" style="flex: 1">Vue Material</h2>
 
+    <!--Dropdown primary-->
+    <div class="dropdown">
+
+      <!--Trigger-->
+      <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown primary</button>
+
+
+      <!--Menu-->
+      <div class="dropdown-menu dropdown-primary">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </div>
+    <!--/Dropdown primary-->
+
     <md-input-container class ="search">
       <md-icon>search</md-icon>
       <label>Phone</label>

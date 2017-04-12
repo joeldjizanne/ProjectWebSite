@@ -15,7 +15,9 @@
       </div>
     </div>
     <AppCarousel />
-    <div class="barre" />
+    <div class="barre">
+      sghjui
+    </div>
 
     <!--Component title-->
     <h5 class="text-center mt-3 mb-2">Rotating cards</h5>
@@ -79,11 +81,11 @@
       <!--/First column-->
 
       <!--Second column-->
-      <div class="col-lg-4 col-md-6">
+      <div class="col-lg-4 col-md-6 ">
 
         <!--Rotating card-->
         <div class="card-wrapper">
-          <div id="card-2" class="card-rotating effect__click">
+          <div id="card-2" class="card-rotating effect__click ">
 
             <!--Front Side-->
             <div class="face front">
@@ -97,10 +99,10 @@
               </div>
               <!--Content-->
               <div class="card-block">
-                <h4>Marie Clark</h4>
+                <h4 class="colo">Marie Clark</h4>
                 <p>Web designer</p>
                 <!--Triggering button-->
-                <a class="rotate-btn" data-card="card-2"><i class="fa fa-repeat"></i> Click here to rotate</a>
+                <a class="rotate-btn col" data-card="card-2"><i class="fa fa-repeat" aria-hidden="false"></i> Click here to rotate</a>
               </div>
             </div>
             <!--/.Front Side-->
@@ -109,19 +111,19 @@
             <div class="face back">
 
               <!--Content-->
-              <h4>About me</h4>
+              <h4 class="col">About me</h4>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. Blanditiis rem amet repellat, dolores nihil quae in mollitia asperiores ut rerum repellendus, voluptatum eum, officia laudantium quaerat?</p>
               <hr>
               <!--Social Icons-->
-              <ul class="inline-ul">
+              <ul class="inline-ul col">
                 <li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>
                 <li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>
-                <li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>
-                <li><a class="icons-sm dribbble-ic"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="icons-sm google-plus-ic"><i class="fa fa-google-plus"></i></a></li>
+                <li><a class="icons-sm dribble-ic"><i class="fa fa-dribble"></i></a></li>
               </ul>
               <!--Triggering button-->
-              <a class="rotate-btn" data-card="card-2"><i class="fa fa-undo"></i> Click here to rotate back</a>
+              <a class="rotate-btn col" data-card="card-2"><i class="fa fa-undo col"></i> Click here to rotate back</a>
 
             </div>
             <!--/.Back Side-->
@@ -201,10 +203,6 @@
 export default {
   name: 'HomePage',
   mounted() {
-    $(".rotate-btn").on("click", function () {
-      var t = $(this).attr("data-card");
-      $("#" + t).toggleClass("flipped")
-    })
   },
   components: {
       AppCarousel
@@ -239,6 +237,7 @@ export default {
   #bar {
     background-color: black;
     padding: 10px;
+    font-size: 20px;
   }
 
   #menu {
@@ -274,5 +273,10 @@ export default {
     background-color: black;
   }
 
-
+.col{
+  background-color: #2E3951;
+ }
+  .colo{
+    color: black;
+  }
 </style>
