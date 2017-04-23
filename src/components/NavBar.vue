@@ -7,7 +7,6 @@
 
       <h2 class="md-title" style="flex: 1">Secure Your future</h2>
 
-
       <md-input-container class ="search">
         <md-icon>search</md-icon>
         <label>Search</label>
