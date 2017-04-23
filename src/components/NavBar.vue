@@ -18,7 +18,7 @@
         <img src="../assets/en.png" alt="flag_londres">
       </div  >
       <md-button class="md-raised">Sign In</md-button>
-      <md-button class="md-raised md-warn">LogIn</md-button>
+      <router-link to="/login" class="md-raised md-primary">LogIn</router-link>
     </md-toolbar>
   </div>
 </template>

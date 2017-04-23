@@ -373,16 +373,7 @@
 export default {
   name: 'HomePage',
   mounted() {
-    $.Velocity.RegisterUI("callout.twirl", {
-      defaultDuration: 3000,
-      calls: [
-        [ { rotateZ: 1080 }, 0.50 ],
-        [ { scaleX: 0.5 }, 0.25, { easing: "spring" } ],
-        [ { scaleX: 1 }, 0.25, { easing: "spring" } ]
-      ]
-    });
 
-    $("div").velocity("callout.twirl");
   },
   components: {
       AppCarousel
@@ -421,7 +412,7 @@ export default {
   }
 
   #bar {
-    background-color: #7a7a7a;
+    background-color: #2E3951;
     padding: 10px;
     font-size: 20px;
   }
@@ -456,7 +447,7 @@ export default {
    width: 100%;
     height: 50px;
     margin-bottom: 30px;
-    background-color: #7a7a7a;
+    background-color: #2E3951;
     padding-top: 15px;
     padding-left: 5px;
     margin-top: 15px;
